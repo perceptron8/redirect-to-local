@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "minimum_chrome_version": "45",
+  
+  "name": "Redirect to Local",
+  "version": "0.0.1",
+  
+  "author": "perceptron8",
+  
+  "background": {
+    "scripts": [
+      "index.js"
+    ]
+  },
+  
+  "web_accessible_resources": [
+    "image.jpg"
+  ],
+  
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ]
+}
